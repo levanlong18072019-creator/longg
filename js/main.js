@@ -1,30 +1,30 @@
 // ========== DỮ LIỆU SẢN PHẨM ==========
 const products = [
     // iPhone 16 Series
-    { id: 1, name: "iPhone 16 Pro Max", price: 34990000, category: "iphone", image: "../img/16promax.png", description: "6.9 inch, A18 Pro, 48MP" },
-    { id: 2, name: "iPhone 16 Pro", price: 29990000, category: "iphone", image: "../img/16pro.png", description: "6.3 inch, A18 Pro, 48MP" },
-    { id: 3, name: "iPhone 16 Plus", price: 25990000, category: "iphone", image: "../img/16plus.png", description: "6.7 inch, A18, pin trâu" },
-    { id: 4, name: "iPhone 16", price: 22990000, category: "iphone", image: "../img/16.png", description: "6.1 inch, A18, Dynamic Island" },
+    { id: 1, name: "iPhone 16 Pro Max", price: 34990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro-max.png", description: "6.9 inch, A18 Pro, 48MP" },
+    { id: 2, name: "iPhone 16 Pro", price: 29990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro-max_1.png", description: "6.3 inch, A18 Pro, 48MP" },
+    { id: 3, name: "iPhone 16 Plus", price: 25990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-plus-1.png", description: "6.7 inch, A18, pin trâu" },
+    { id: 4, name: "iPhone 16", price: 22990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-1.png", description: "6.1 inch, A18, Dynamic Island" },
     
     // iPhone 15 Series
     { id: 5, name: "iPhone 15 Pro Max", price: 27990000, category: "iphone", image: "../img/15promax.png", description: "6.7 inch, A17 Pro, 48MP" },
-    { id: 6, name: "iPhone 15 Pro", price: 24990000, category: "iphone", image: "../img/15pro.png", description: "6.1 inch, A17 Pro, Titanium" },
-    { id: 7, name: "iPhone 15 Plus", price: 21990000, category: "iphone", image: "../img/15plus.png", description: "6.7 inch, A16, 48MP" },
-    { id: 8, name: "iPhone 15", price: 18990000, category: "iphone", image: "../img/15.png", description: "6.1 inch, A16, Dynamic Island" },
+    { id: 6, name: "iPhone 15 Pro", price: 24990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_4.png", description: "6.1 inch, A17 Pro, Titanium" },
+    { id: 7, name: "iPhone 15 Plus", price: 21990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png", description: "6.7 inch, A16, 48MP" },
+    { id: 8, name: "iPhone 15", price: 18990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1__1.png", description: "6.1 inch, A16, Dynamic Island" },
     
     // iPhone 14 Series
     { id: 9, name: "iPhone 14 Pro Max", price: 23990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-14-pro_2__5.png", description: "6.7 inch, A16, Always-On" },
-    { id: 10, name: "iPhone 14 Pro", price: 20990000, category: "iphone", image: "../img/14pro.png", description: "6.1 inch, A16, 48MP" },
-    { id: 11, name: "iPhone 14 Plus", price: 17990000, category: "iphone", image: "../img/14plus.png", description: "6.7 inch, A15, pin trâu" },
-    { id: 12, name: "iPhone 14", price: 15990000, category: "iphone", image: "../img/14.png", description: "6.1 inch, A15, camera kép" },
+    { id: 10, name: "iPhone 14 Pro", price: 20990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-14-pro-256gb.png", description: "6.1 inch, A16, 48MP" },
+    { id: 11, name: "iPhone 14 Plus", price: 17990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-14-plus.jpg", description: "6.7 inch, A15, pin trâu" },
+    { id: 12, name: "iPhone 14", price: 15990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-14_2_1.jpg", description: "6.1 inch, A15, camera kép" },
     
     // iPhone 13 Series
-    { id: 13, name: "iPhone 13 Pro Max", price: 19990000, category: "iphone", image: "../img/13promax.png", description: "6.7 inch, A15, 120Hz" },
-    { id: 14, name: "iPhone 13 Pro", price: 17990000, category: "iphone", image: "../img/13pro.png", description: "6.1 inch, A15, ProMotion" },
-    { id: 15, name: "iPhone 13", price: 13990000, category: "iphone", image: "../img/13.png", description: "6.1 inch, A15, camera kép" },
+    { id: 13, name: "iPhone 13 Pro Max", price: 19990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-13-pro-max.png", description: "6.7 inch, A15, 120Hz" },
+    { id: 14, name: "iPhone 13 Pro", price: 17990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-13-pro.png", description: "6.1 inch, A15, ProMotion" },
+    { id: 15, name: "iPhone 13", price: 13990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-13_2_2.jpg", description: "6.1 inch, A15, camera kép" },
     
     // iPhone 12
-    { id: 16, name: "iPhone 12 Pro Max", price: 16990000, category: "iphone", image: "../img/12promax.png", description: "6.7 inch, A14, LiDAR" },
+    { id: 16, name: "iPhone 12 Pro Max", price: 16990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_251_1.jpg", description: "6.7 inch, A14, LiDAR" },
     
     // Phụ kiện
     { id: 17, name: "Ốp lưng MagSafe Silicon", price: 590000, category: "accessory", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_-_2025-09-11t224647.289.png", description: "Silicon cao cấp, hỗ trợ MagSafe" },
