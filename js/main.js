@@ -7,7 +7,7 @@ const products = [
     { id: 4, name: "iPhone 16", price: 22990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-1.png", description: "6.1 inch, A18, Dynamic Island" },
     
     // iPhone 15 Series
-    { id: 5, name: "iPhone 15 Pro Max", price: 27990000, category: "iphone", image: "../img/15promax.png", description: "6.7 inch, A17 Pro, 48MP" },
+    { id: 5, name: "iPhone 15 Pro Max", price: 27990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-256gb_1.png", description: "6.7 inch, A17 Pro, 48MP" },
     { id: 6, name: "iPhone 15 Pro", price: 24990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_4.png", description: "6.1 inch, A17 Pro, Titanium" },
     { id: 7, name: "iPhone 15 Plus", price: 21990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png", description: "6.7 inch, A16, 48MP" },
     { id: 8, name: "iPhone 15", price: 18990000, category: "iphone", image: "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1__1.png", description: "6.1 inch, A16, Dynamic Island" },
